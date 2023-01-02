@@ -151,6 +151,27 @@
       "paddingLeft": 50,
       "height": 180,
       "backgroundColor": "rgba( 68, 206, 95, 0 )"
+    },
+    "&-headerbar": {
+      "&-icon": {
+        "flexProps": {
+          "alignItems": "CENTER",
+          "justifyContent": "SPACE_BETWEEN"
+        },
+        "borderRadius": 20,
+        "backgroundColor": "rgba( 250, 250, 250, 1 )",
+        "ios": {
+          "shadowOpacity": 0.25,
+          "shadowOffset": {
+            "y": 10
+          }
+        }
+      }
+    },
+    "&-login": {
+      "&-button": {
+        "padding": 20
+      }
     }
   },
   "#peoples": {
@@ -195,5 +216,84 @@
     },
     "lineSpacing": 0,
     "height": 200
+  },
+  ".login": {
+    "&-header": {
+      "&-icon": {
+        "image": "bella_onoje.png",
+        "height": 100,
+        "width": 100,
+        "imageFillType": "ASPECTFIT"
+      }
+    }
+  },
+  "#logintext": {
+    "width": 100,
+    "textAlignment": "MIDCENTER",
+    "height": 30
+  },
+  "#logintextWrapper": {
+    "flexProps": {
+      "alignSelf": "STRETCH",
+      "alignContent": "CENTER",
+      "alignItems": "CENTER"
+    },
+    "height": 30
+  },
+  "#pageLogin": {
+    "backgroundColor": "rgba( 242, 242, 242, 1 )"
+  },
+  "#loginForm": {
+    "height": 300,
+    "padding": 30
+  },
+  "#loginTitleWrapper": {
+    "height": 30,
+    "width": 100
+  },
+  "#pgImageView": {
+    "height": 100,
+    "width": 100,
+    "image": "bella_onoje.png",
+    "imageFillType": "ASPECTFILL"
+  },
+  "#login": {
+    "&-tiitle": {
+      "&-wrapper": {
+        "flexProps": {
+          "alignItems": "CENTER",
+          "alignContent": "CENTER",
+          "justifyContent": "SPACE_BETWEEN"
+        },
+        "height": 400,
+        "backgroundColor": "rgba( 255, 255, 255, 1 )",
+        "borderRadius": 30,
+        "ios": {
+          "shadowOffset": {
+            "y": 10
+          }
+        }
+      }
+    },
+    "&-button": {
+      "backgroundColor": {
+        "normal": "rgba( 250, 74, 12, 1 )"
+      },
+      "borderRadius": 32
+    }
+  },
+  "#loginTitle": {
+    "width": 100,
+    "height": 30,
+    "textAlignment": "MIDCENTER",
+    "textColor": "rgba( 0, 0, 0, 1 )",
+    "borderWidth": null
+  },
+  "#userName": {
+    "height": 80
+  },
+  "#forgotPassCode": {
+    "backgroundColor": "rgba( 250, 12, 12, 0 )",
+    "textColor": "rgba( 250, 74, 12, 1 )"
   }
 }

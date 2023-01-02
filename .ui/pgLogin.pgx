@@ -1,0 +1,202 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #pageLogin",
+			"id": "d746-57be-2a13-5966",
+			"initialized": true,
+			"props": {
+				"children": [
+					"0b6b-5512-84c0-ee2a",
+					"7910-4254-e256-b0d2",
+					"be64-eb78-f462-b755",
+					"9703-ea7e-621d-9725",
+					"9312-8acd-4c96-89a8"
+				],
+				"name": "pgLogin",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "0b6b-5512-84c0-ee2a",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "d746-57be-2a13-5966"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar #pgLogin-headerbar",
+			"id": "7910-4254-e256-b0d2",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "d746-57be-2a13-5966",
+				"title": "pgLogin"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgLogin"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #login-tiitle-wrapper",
+			"id": "be64-eb78-f462-b755",
+			"props": {
+				"children": [
+					"e3c3-b051-d137-35ae",
+					"dd62-b54c-9d0b-7e26",
+					"7647-8086-49fd-d910"
+				],
+				"name": "flexLayout1",
+				"parent": "d746-57be-2a13-5966"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #loginTitleWrapper",
+			"id": "e3c3-b051-d137-35ae",
+			"props": {
+				"children": [],
+				"name": "flexLayout4",
+				"parent": "be64-eb78-f462-b755"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #pgImageView",
+			"id": "dd62-b54c-9d0b-7e26",
+			"props": {
+				"children": [],
+				"name": "imageView1",
+				"parent": "be64-eb78-f462-b755"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #loginTitleWrapper",
+			"id": "7647-8086-49fd-d910",
+			"props": {
+				"children": [
+					"7492-41bd-64ee-9f32"
+				],
+				"name": "flexLayout5",
+				"parent": "be64-eb78-f462-b755"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #loginTitle",
+			"id": "7492-41bd-64ee-9f32",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "7647-8086-49fd-d910",
+				"text": "Login"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Login"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #loginForm",
+			"id": "9703-ea7e-621d-9725",
+			"props": {
+				"children": [
+					"5159-e0a1-869c-1edf",
+					"4645-b1f7-540e-4cdb",
+					"85b2-be55-c34d-c963"
+				],
+				"name": "flexLayout3",
+				"parent": "d746-57be-2a13-5966"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-materialTextBox #userName",
+			"id": "5159-e0a1-869c-1edf",
+			"props": {
+				"children": [],
+				"hint": "Email adress",
+				"name": "materialTextBox1",
+				"parent": "9703-ea7e-621d-9725"
+			},
+			"type": "MaterialTextBox",
+			"userProps": {
+				"hint": "Email adress"
+			}
+		},
+		{
+			"className": ".sf-materialTextBox .margin-vertical",
+			"id": "4645-b1f7-540e-4cdb",
+			"props": {
+				"children": [],
+				"hint": "Password",
+				"isPassword": true,
+				"name": "materialTextBox2",
+				"parent": "9703-ea7e-621d-9725"
+			},
+			"type": "MaterialTextBox",
+			"userProps": {
+				"hint": "Password",
+				"isPassword": true
+			}
+		},
+		{
+			"className": ".sf-label #forgotPassCode",
+			"id": "85b2-be55-c34d-c963",
+			"props": {
+				"children": [],
+				"name": "label2",
+				"parent": "9703-ea7e-621d-9725",
+				"text": "Forgot passcode?"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Forgot passcode?"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #wrapper-login-button",
+			"id": "9312-8acd-4c96-89a8",
+			"props": {
+				"children": [
+					"c452-07f2-619e-20c4"
+				],
+				"name": "flexLayout6",
+				"parent": "d746-57be-2a13-5966"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button #login-button",
+			"id": "c452-07f2-619e-20c4",
+			"oldName": "button1",
+			"props": {
+				"children": [],
+				"name": "btnLogin",
+				"parent": "9312-8acd-4c96-89a8",
+				"text": "Login"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Login"
+			}
+		}
+	]
+}

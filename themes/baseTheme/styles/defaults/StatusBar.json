@@ -6,5 +6,13 @@
     },
     "style": "LIGHTCONTENT",
     "visible": true
+  },
+  ".sf": {
+    "&-statusBar": {
+      "style": "DEFAULT",
+      "android": {
+        "color": "#FF4B3A"
+      }
+    }
   }
 }

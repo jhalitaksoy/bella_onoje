@@ -40,13 +40,14 @@
 				"3e67f3b2-ab83-458a-8876-50f1291d03e4",
 				"d416bbad-1c8b-4f36-a56d-830d14233977",
 				"bebcc60d-2536-4d49-9acc-c48cb5cae190",
-				"24546fba-1530-4815-99cf-cf4bfcd239ea"
+				"24546fba-1530-4815-99cf-cf4bfcd239ea",
+				"474c0b73-f863-4824-b7c3-fbeb61b3a715"
 			],
 			"isDirty": false,
 			"props": {
 				"path": "pages",
 				"x": 62.312034012839035,
-				"y": -215.9367188115981,
+				"y": -215.20818140651602,
 				"homeRoute": "page1",
 				"to": "page1"
 			},
@@ -128,6 +129,21 @@
 				"x": 512.312034012839,
 				"y": -95.9367188115981,
 				"page": "pgHello"
+			},
+			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
+		},
+		"474c0b73-f863-4824-b7c3-fbeb61b3a715": {
+			"id": "474c0b73-f863-4824-b7c3-fbeb61b3a715",
+			"type": "Route",
+			"isContainer": false,
+			"name": "login",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "login",
+				"x": 662.312034012839,
+				"y": -95.9367188115981,
+				"page": "pgLogin"
 			},
 			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
 		}

@@ -141,7 +141,7 @@
 			}
 		},
 		{
-			"className": ".sf-materialTextBox .margin-vertical",
+			"className": ".sf-materialTextBox",
 			"id": "4645-b1f7-540e-4cdb",
 			"props": {
 				"children": [],

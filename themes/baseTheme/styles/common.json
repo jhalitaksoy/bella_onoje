@@ -265,14 +265,16 @@
           "alignContent": "CENTER",
           "justifyContent": "SPACE_BETWEEN"
         },
-        "height": 400,
+        "height": 300,
         "backgroundColor": "rgba( 255, 255, 255, 1 )",
         "borderRadius": 30,
         "ios": {
           "shadowOffset": {
             "y": 10
           }
-        }
+        },
+        "borderTopLeftRadius": -2,
+        "borderTopRightRadius": -2
       }
     },
     "&-button": {

@@ -316,7 +316,36 @@
   },
   "#common": {
     "&-header": {
-      "backgroundColor": "rgba( 255, 75, 58, 1 )"
+      "backgroundColor": "rgba( 253, 253, 253, 1 )"
     }
+  },
+  "#leftIcon": {
+    "font": {
+      "family": "FontAwesome5FreeSolid",
+      "italic": false,
+      "bold": false,
+      "size": 24,
+      "style": null
+    },
+    "glyph": "",
+    "visible": true,
+    "textColor": "rgba( 155, 110, 110, 1 )"
+  },
+  "#homeHeaderBar": {
+    "flexProps": {
+      "justifyContent": "SPACE_BETWEEN",
+      "flexDirection": "ROW"
+    }
+  },
+  "#rightIcon": {
+    "font": {
+      "family": "FontAwesome5FreeSolid",
+      "italic": false,
+      "bold": false,
+      "size": 24,
+      "style": null
+    },
+    "glyph": "",
+    "textColor": "rgba( 226, 198, 198, 0.98 )"
   }
 }

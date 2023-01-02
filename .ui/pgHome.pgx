@@ -34,7 +34,9 @@
 			"className": ".sf-headerBar #common-header",
 			"id": "6a0d-c2c5-acea-e6cb",
 			"props": {
-				"children": [],
+				"children": [
+					"b52b-08c2-362d-91cb"
+				],
 				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "b56c-5730-0de6-1c36",
@@ -44,6 +46,42 @@
 			"userProps": {
 				"title": "pgHome"
 			}
+		},
+		{
+			"className": ".sf-flexLayout #homeHeaderBar",
+			"id": "b52b-08c2-362d-91cb",
+			"props": {
+				"children": [
+					"97ad-f597-d646-9155",
+					"eaa8-88aa-1609-7d15"
+				],
+				"name": "flexLayout7",
+				"parent": "6a0d-c2c5-acea-e6cb"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #leftIcon",
+			"id": "97ad-f597-d646-9155",
+			"props": {
+				"children": [],
+				"name": "icon1",
+				"parent": "b52b-08c2-362d-91cb"
+			},
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #rightIcon",
+			"id": "eaa8-88aa-1609-7d15",
+			"props": {
+				"children": [],
+				"name": "icon2",
+				"parent": "b52b-08c2-362d-91cb"
+			},
+			"type": "Icon",
+			"userProps": {}
 		},
 		{
 			"className": ".sf-flexLayout #logout-wrapper",

@@ -1,6 +1,7 @@
 import PgForgotPasswordDesign from 'generated/pages/pgForgotPassword';
 import { withDismissAndBackButton } from '@smartface/mixins';
 import { Router, Route } from '@smartface/router';
+import Color from '@smartface/native/ui/color';
 
 export default class PgForgotPassword extends withDismissAndBackButton(PgForgotPasswordDesign) {
   constructor(private router?: Router, private route?: Route) {
@@ -13,6 +14,7 @@ export default class PgForgotPassword extends withDismissAndBackButton(PgForgotP
    */
   onShow() {
     super.onShow();
+    this.statusBar.backgroundColor = this.headerBar.backgroundColor;
     this.initBackButton(this.router); //Addes a back button to the page headerbar.
   }
 
@@ -22,5 +24,6 @@ export default class PgForgotPassword extends withDismissAndBackButton(PgForgotP
    */
   onLoad() {
     super.onLoad();
+    
   }
 }

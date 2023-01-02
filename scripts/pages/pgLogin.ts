@@ -15,6 +15,7 @@ export default class PgLogin extends withDismissAndBackButton(PgLoginDesign) {
    */
   onShow() {
     super.onShow();
+    this.statusBar.backgroundColor = Color.WHITE;
     this.initBackButton(this.router); //Addes a back button to the page headerbar.
   }
 
@@ -24,7 +25,7 @@ export default class PgLogin extends withDismissAndBackButton(PgLoginDesign) {
    */
   onLoad() {
     super.onLoad();
-    this.statusBar.backgroundColor = Color.WHITE;
+    
     this.btnLogin.onPress = () => {
         Data.setStringVariable("login", "login")
         this.router.push('/home/homePage');

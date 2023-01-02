@@ -39,9 +39,10 @@
 			"children": [
 				"3e67f3b2-ab83-458a-8876-50f1291d03e4",
 				"d416bbad-1c8b-4f36-a56d-830d14233977",
-				"bebcc60d-2536-4d49-9acc-c48cb5cae190"
+				"bebcc60d-2536-4d49-9acc-c48cb5cae190",
+				"24546fba-1530-4815-99cf-cf4bfcd239ea"
 			],
-			"isDirty": true,
+			"isDirty": false,
 			"props": {
 				"path": "pages",
 				"x": 62.312034012839035,
@@ -57,7 +58,7 @@
 			"isContainer": false,
 			"name": "page1",
 			"children": [],
-			"isDirty": true,
+			"isDirty": false,
 			"props": {
 				"path": "page1",
 				"x": 62.312034012839035,
@@ -72,7 +73,7 @@
 			"isContainer": false,
 			"name": "page2",
 			"children": [],
-			"isDirty": true,
+			"isDirty": false,
 			"props": {
 				"path": "page2",
 				"x": 212.31203401283904,
@@ -89,7 +90,7 @@
 			"children": [
 				"6813f470-2e07-4479-afd3-89d39573d168"
 			],
-			"isDirty": true,
+			"isDirty": false,
 			"props": {
 				"path": "page3",
 				"modal": true,
@@ -106,7 +107,7 @@
 			"isContainer": false,
 			"name": "page3",
 			"children": [],
-			"isDirty": true,
+			"isDirty": false,
 			"props": {
 				"path": "page3",
 				"x": 362.31203401283904,
@@ -114,6 +115,21 @@
 				"page": "page3"
 			},
 			"parent": "bebcc60d-2536-4d49-9acc-c48cb5cae190"
+		},
+		"24546fba-1530-4815-99cf-cf4bfcd239ea": {
+			"id": "24546fba-1530-4815-99cf-cf4bfcd239ea",
+			"type": "Route",
+			"isContainer": false,
+			"name": "hello",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "hello",
+				"x": 512.312034012839,
+				"y": -95.9367188115981,
+				"page": "pgHello"
+			},
+			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
 		}
 	}
 }

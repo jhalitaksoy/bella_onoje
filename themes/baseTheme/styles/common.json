@@ -248,7 +248,7 @@
     "padding": 30
   },
   "#loginTitleWrapper": {
-    "height": 30,
+    "height": 50,
     "width": 100
   },
   "#pgImageView": {
@@ -286,10 +286,16 @@
   },
   "#loginTitle": {
     "width": 100,
-    "height": 30,
+    "height": 40,
     "textAlignment": "MIDCENTER",
     "textColor": "rgba( 0, 0, 0, 1 )",
-    "borderWidth": null
+    "borderWidth": null,
+    "font": {
+      "name": "",
+      "family": "",
+      "style": "",
+      "size": 24
+    }
   },
   "#userName": {
     "height": 80
@@ -297,5 +303,20 @@
   "#forgotPassCode": {
     "backgroundColor": "rgba( 250, 12, 12, 0 )",
     "textColor": "rgba( 250, 74, 12, 1 )"
+  },
+  "#home": {
+    "&-header": {
+      "backgroundColor": "rgba( 255, 75, 58, 1 )"
+    }
+  },
+  "#logout": {
+    "&-wrapper": {
+      "padding": 20
+    }
+  },
+  "#common": {
+    "&-header": {
+      "backgroundColor": "rgba( 255, 75, 58, 1 )"
+    }
   }
 }

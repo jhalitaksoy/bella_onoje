@@ -159,9 +159,10 @@
 		{
 			"className": ".sf-label #forgotPassCode",
 			"id": "85b2-be55-c34d-c963",
+			"oldName": "label2",
 			"props": {
 				"children": [],
-				"name": "label2",
+				"name": "lblPassword",
 				"parent": "9703-ea7e-621d-9725",
 				"text": "Forgot passcode?"
 			},

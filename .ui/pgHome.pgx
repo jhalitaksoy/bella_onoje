@@ -1,0 +1,91 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "b56c-5730-0de6-1c36",
+			"initialized": true,
+			"props": {
+				"children": [
+					"cd66-4ac5-56a3-bbc4",
+					"6a0d-c2c5-acea-e6cb",
+					"1e6d-4875-bb73-d562"
+				],
+				"name": "pgHome",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "cd66-4ac5-56a3-bbc4",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "b56c-5730-0de6-1c36"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar #common-header",
+			"id": "6a0d-c2c5-acea-e6cb",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "b56c-5730-0de6-1c36",
+				"title": "pgHome"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgHome"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #logout-wrapper",
+			"id": "1e6d-4875-bb73-d562",
+			"props": {
+				"children": [
+					"69ea-e557-9aec-0ff9",
+					"beea-b7bc-2dfb-1459"
+				],
+				"name": "flexLayout6",
+				"parent": "b56c-5730-0de6-1c36"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-button #login-button",
+			"id": "69ea-e557-9aec-0ff9",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "1e6d-4875-bb73-d562",
+				"text": "Logout"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Logout"
+			}
+		},
+		{
+			"className": ".sf-button #login-button .margin-vertical",
+			"id": "beea-b7bc-2dfb-1459",
+			"props": {
+				"children": [],
+				"name": "button1_1",
+				"parent": "1e6d-4875-bb73-d562",
+				"text": "Reset"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Reset"
+			}
+		}
+	]
+}

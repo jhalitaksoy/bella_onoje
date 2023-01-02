@@ -1,10 +1,9 @@
-import PgHelloDesign from 'generated/pages/pgHello';
+import PgHomeDesign from 'generated/pages/pgHome';
 import { withDismissAndBackButton } from '@smartface/mixins';
 import { Router, Route } from '@smartface/router';
 import { Data } from '@smartface/native/global';
-import { routeToGomeOrLoginOrWelcome } from 'start';
 
-export default class PgHello extends withDismissAndBackButton(PgHelloDesign) {
+export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
   constructor(private router?: Router, private route?: Route) {
     super({});
   }
@@ -24,10 +23,14 @@ export default class PgHello extends withDismissAndBackButton(PgHelloDesign) {
    */
   onLoad() {
     super.onLoad();
-    this.textView1.text = "Food For\nEveryone";
-    this.btnGetStarted.onPress = () => {
-        Data.setBooleanVariable("firstOpenFlag", true);
-        routeToGomeOrLoginOrWelcome();
+    this.button1.onPress = () => {
+        Data.removeVariable("login");
+        this.router.push('/login/loginPage');
+    }
+
+    this.button1_1.onPress = () => {
+        Data.removeAllVariables();
+        this.router.push('/welcome/welcomePage');
     }
   }
 }

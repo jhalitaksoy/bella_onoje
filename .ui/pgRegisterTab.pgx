@@ -1,0 +1,97 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .logintab",
+			"id": "64a2-5601-7ba9-25f9",
+			"initialized": true,
+			"props": {
+				"children": [
+					"e9ae-20e4-3222-eee2",
+					"43f9-9d10-ae22-cc98",
+					"4b2c-acc1-e538-37d5",
+					"a38f-5248-ddee-9d2b",
+					"518e-bc75-b138-8843"
+				],
+				"name": "pgRegisterTab",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "e9ae-20e4-3222-eee2",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "64a2-5601-7ba9-25f9"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "43f9-9d10-ae22-cc98",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "64a2-5601-7ba9-25f9",
+				"title": "pgRegisterTab"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgRegisterTab"
+			}
+		},
+		{
+			"className": ".sf-materialTextBox .loginFormMtb",
+			"id": "4b2c-acc1-e538-37d5",
+			"oldName": "mtbEmai",
+			"props": {
+				"children": [],
+				"hint": "Email Adress",
+				"name": "mtbEmail",
+				"parent": "64a2-5601-7ba9-25f9"
+			},
+			"type": "MaterialTextBox",
+			"userProps": {
+				"hint": "Email Adress"
+			}
+		},
+		{
+			"className": ".sf-materialTextBox .loginFormMtb",
+			"id": "a38f-5248-ddee-9d2b",
+			"oldName": "materialTextBox2",
+			"props": {
+				"children": [],
+				"hint": "Password",
+				"isPassword": true,
+				"name": "mtbPassword",
+				"parent": "64a2-5601-7ba9-25f9"
+			},
+			"type": "MaterialTextBox",
+			"userProps": {
+				"hint": "Password",
+				"isPassword": true
+			}
+		},
+		{
+			"className": ".sf-button .margin-vertical .bella-margin .bella-btn",
+			"id": "518e-bc75-b138-8843",
+			"props": {
+				"children": [],
+				"name": "button1_1",
+				"parent": "64a2-5601-7ba9-25f9",
+				"text": "Sign-up"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Sign-up"
+			}
+		}
+	]
+}

@@ -3,8 +3,14 @@ import { withDismissAndBackButton } from '@smartface/mixins';
 import { Router, Route } from '@smartface/router';
 import Color from '@smartface/native/ui/color';
 import { Data } from '@smartface/native/global';
+import SwipeView from '@smartface/native/ui/swipeview';
+import PgLoginTab from './pgLoginTab';
+import PgRegisterTab from './pgRegisterTab';
+import { isJSDocThisTag } from 'typescript';
+import { Border } from '@smartface/native/ui/view/view';
 
 export default class PgLogin extends withDismissAndBackButton(PgLoginDesign) {
+    swipeView: SwipeView;
   constructor(private router?: Router, private route?: Route) {
     super({});
   }
@@ -25,14 +31,43 @@ export default class PgLogin extends withDismissAndBackButton(PgLoginDesign) {
    */
   onLoad() {
     super.onLoad();
-    
-    this.btnLogin.onPress = () => {
-        Data.setStringVariable("login", "login")
-        this.router.push('/home/homePage');
-    }
+    this.initializeSwipeView();
+  }
 
-    this.lblPassword.onTouch = (e) => {
-        this.router.push('/login/forgotPassword');
-    }
+  initializeSwipeView() {
+      this.swipeView = new SwipeView({
+          page: this,
+          pages: [
+            //@ts-ignore
+            PgLoginTab,
+            //@ts-ignore
+            PgRegisterTab,
+          ],
+          onStateChanged: ()=> {
+
+          },
+          
+      });
+
+      this.border1.backgroundColor = Color.create("#FA4A0C");
+        this.border2.backgroundColor = Color.TRANSPARENT;
+        
+      //@ts-ignore
+      this.label1.onTouch = (e) => {
+        this.swipeView.swipeToIndex(0, true);
+        this.border1.backgroundColor = Color.create("#FA4A0C");
+        this.border2.backgroundColor = Color.TRANSPARENT;
+      }
+      
+      //@ts-ignore
+      this.label2.onTouch = (e) => {
+        this.swipeView.swipeToIndex(1, true);
+        this.border1.backgroundColor = Color.TRANSPARENT;
+        this.border2.backgroundColor = Color.create("#FA4A0C");
+      }
+
+      this.flexLayout2.addChild(this.swipeView, "swipeView", ".sf-swipeView", {
+          marginTop: 10,
+      });
   }
 }

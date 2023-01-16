@@ -9,8 +9,7 @@
 					"0b6b-5512-84c0-ee2a",
 					"7910-4254-e256-b0d2",
 					"be64-eb78-f462-b755",
-					"9703-ea7e-621d-9725",
-					"9312-8acd-4c96-89a8"
+					"d757-9788-5a0b-b42d"
 				],
 				"name": "pgLogin",
 				"orientation": "PORTRAIT",
@@ -89,7 +88,8 @@
 			"id": "7647-8086-49fd-d910",
 			"props": {
 				"children": [
-					"7492-41bd-64ee-9f32"
+					"d384-432d-68d5-f985",
+					"6933-aed1-706d-ceb8"
 				],
 				"name": "flexLayout5",
 				"parent": "be64-eb78-f462-b755"
@@ -98,12 +98,26 @@
 			"userProps": {}
 		},
 		{
+			"className": ".sf-flexLayout #login-title-button-wrapper",
+			"id": "d384-432d-68d5-f985",
+			"props": {
+				"children": [
+					"c740-d597-e106-d668",
+					"84bc-dfff-0382-6d73"
+				],
+				"name": "flexLayout3",
+				"parent": "7647-8086-49fd-d910"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
 			"className": ".sf-label #loginTitle",
-			"id": "7492-41bd-64ee-9f32",
+			"id": "c740-d597-e106-d668",
 			"props": {
 				"children": [],
 				"name": "label1",
-				"parent": "7647-8086-49fd-d910",
+				"parent": "d384-432d-68d5-f985",
 				"text": "Login"
 			},
 			"type": "Label",
@@ -112,92 +126,67 @@
 			}
 		},
 		{
-			"className": ".sf-flexLayout #loginForm",
-			"id": "9703-ea7e-621d-9725",
+			"className": ".sf-flexLayout .border",
+			"id": "84bc-dfff-0382-6d73",
+			"oldName": "flexLayout6",
 			"props": {
-				"children": [
-					"5159-e0a1-869c-1edf",
-					"4645-b1f7-540e-4cdb",
-					"85b2-be55-c34d-c963"
-				],
-				"name": "flexLayout3",
-				"parent": "d746-57be-2a13-5966"
+				"children": [],
+				"name": "border1",
+				"parent": "d384-432d-68d5-f985"
 			},
 			"type": "FlexLayout",
 			"userProps": {}
 		},
 		{
-			"className": ".sf-materialTextBox #userName",
-			"id": "5159-e0a1-869c-1edf",
+			"className": ".sf-flexLayout #login-title-button-wrapper",
+			"id": "6933-aed1-706d-ceb8",
 			"props": {
-				"children": [],
-				"hint": "Email adress",
-				"name": "materialTextBox1",
-				"parent": "9703-ea7e-621d-9725"
+				"children": [
+					"be51-3982-040d-1f1d",
+					"94c3-ef18-d774-2389"
+				],
+				"name": "flexLayout7",
+				"parent": "7647-8086-49fd-d910"
 			},
-			"type": "MaterialTextBox",
-			"userProps": {
-				"hint": "Email adress"
-			}
+			"type": "FlexLayout",
+			"userProps": {}
 		},
 		{
-			"className": ".sf-materialTextBox",
-			"id": "4645-b1f7-540e-4cdb",
+			"className": ".sf-label #loginTitle",
+			"id": "be51-3982-040d-1f1d",
 			"props": {
 				"children": [],
-				"hint": "Password",
-				"isPassword": true,
-				"name": "materialTextBox2",
-				"parent": "9703-ea7e-621d-9725"
-			},
-			"type": "MaterialTextBox",
-			"userProps": {
-				"hint": "Password",
-				"isPassword": true
-			}
-		},
-		{
-			"className": ".sf-label #forgotPassCode",
-			"id": "85b2-be55-c34d-c963",
-			"oldName": "label2",
-			"props": {
-				"children": [],
-				"name": "lblPassword",
-				"parent": "9703-ea7e-621d-9725",
-				"text": "Forgot passcode?"
+				"name": "label2",
+				"parent": "6933-aed1-706d-ceb8",
+				"text": "Sign-up"
 			},
 			"type": "Label",
 			"userProps": {
-				"text": "Forgot passcode?"
+				"text": "Sign-up"
 			}
 		},
 		{
-			"className": ".sf-flexLayout #wrapper-login-button",
-			"id": "9312-8acd-4c96-89a8",
+			"className": ".sf-flexLayout .border",
+			"id": "94c3-ef18-d774-2389",
+			"oldName": "flexLayout6",
 			"props": {
-				"children": [
-					"c452-07f2-619e-20c4"
-				],
-				"name": "flexLayout6",
-				"parent": "d746-57be-2a13-5966"
+				"children": [],
+				"name": "border2",
+				"parent": "6933-aed1-706d-ceb8"
 			},
 			"type": "FlexLayout",
 			"userProps": {}
 		},
 		{
-			"className": ".sf-button #login-button",
-			"id": "c452-07f2-619e-20c4",
-			"oldName": "button1",
+			"className": ".sf-flexLayout #swipeViewWrapper",
+			"id": "d757-9788-5a0b-b42d",
 			"props": {
 				"children": [],
-				"name": "btnLogin",
-				"parent": "9312-8acd-4c96-89a8",
-				"text": "Login"
+				"name": "flexLayout2",
+				"parent": "d746-57be-2a13-5966"
 			},
-			"type": "Button",
-			"userProps": {
-				"text": "Login"
-			}
+			"type": "FlexLayout",
+			"userProps": {}
 		}
 	]
 }

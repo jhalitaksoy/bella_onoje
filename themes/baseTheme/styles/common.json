@@ -248,8 +248,13 @@
     "padding": 30
   },
   "#loginTitleWrapper": {
-    "height": 50,
-    "width": 100
+    "height": 43,
+    "width": 300,
+    "flexProps": {
+      "flexDirection": "ROW",
+      "flexGrow": null,
+      "justifyContent": "SPACE_BETWEEN"
+    }
   },
   "#pgImageView": {
     "height": 100,
@@ -282,6 +287,14 @@
         "normal": "rgba( 250, 74, 12, 1 )"
       },
       "borderRadius": 32
+    },
+    "&-title": {
+      "&-button": {
+        "&-wrapper": {
+          "width": 100,
+          "height": 43
+        }
+      }
     }
   },
   "#loginTitle": {
@@ -294,7 +307,7 @@
       "name": "",
       "family": "",
       "style": "",
-      "size": 24
+      "size": 16
     }
   },
   "#userName": {
@@ -347,5 +360,46 @@
     },
     "glyph": "",
     "textColor": "rgba( 226, 198, 198, 0.98 )"
+  },
+  "#labelRegister": {
+    "width": 100
+  },
+  ".loginFormMtb": {
+    "hintTextColor": "rgba( 0, 0, 0, 0.6 )",
+    "selectedHintTextColor": "rgba( 0, 0, 0, 0.6 )",
+    "marginTop": 10,
+    "marginLeft": 18,
+    "marginRight": 18,
+    "height": 70
+  },
+  ".forgotPassword": {
+    "marginLeft": 20,
+    "marginRight": 20,
+    "textColor": "rgba( 250, 74, 12, 1 )"
+  },
+  "#swipeViewWrapper": {
+    "flexProps": {
+      "flexGrow": 1
+    }
+  },
+  ".logintab": {
+    "backgroundColor": "rgba( 0, 0, 0, 0 )"
+  },
+  ".bella": {
+    "&-margin": {
+      "marginLeft": 20,
+      "marginRight": 20
+    },
+    "&-btn": {
+      "backgroundColor": {
+        "normal": "rgba( 250, 74, 12, 1 )"
+      },
+      "borderRadius": 100,
+      "height": 60
+    }
+  },
+  ".border": {
+    "height": 3,
+    "width": 100
   }
 }

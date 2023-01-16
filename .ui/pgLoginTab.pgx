@@ -1,0 +1,113 @@
+{
+	"components": [
+		{
+			"className": ".sf-page .logintab",
+			"id": "06b7-b1bd-b95e-fbdf",
+			"initialized": true,
+			"props": {
+				"children": [
+					"878c-ceff-64fc-ff86",
+					"2a0e-ab3e-aa99-ab1b",
+					"7a28-2781-7351-52d6",
+					"55b1-62fc-715b-9f21",
+					"45dd-ccf6-463b-f73a",
+					"93fd-b2b8-0129-4971"
+				],
+				"name": "pgLoginTab",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.10.5"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "878c-ceff-64fc-ff86",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "06b7-b1bd-b95e-fbdf"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "2a0e-ab3e-aa99-ab1b",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "06b7-b1bd-b95e-fbdf",
+				"title": "pgLoginTab"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgLoginTab"
+			}
+		},
+		{
+			"className": ".sf-materialTextBox .loginFormMtb",
+			"id": "7a28-2781-7351-52d6",
+			"oldName": "mtbEmai",
+			"props": {
+				"children": [],
+				"hint": "Email Adress",
+				"name": "mtbEmail",
+				"parent": "06b7-b1bd-b95e-fbdf"
+			},
+			"type": "MaterialTextBox",
+			"userProps": {
+				"hint": "Email Adress"
+			}
+		},
+		{
+			"className": ".sf-materialTextBox .loginFormMtb",
+			"id": "55b1-62fc-715b-9f21",
+			"oldName": "materialTextBox2",
+			"props": {
+				"children": [],
+				"hint": "Password",
+				"isPassword": true,
+				"name": "mtbPassword",
+				"parent": "06b7-b1bd-b95e-fbdf"
+			},
+			"type": "MaterialTextBox",
+			"userProps": {
+				"hint": "Password",
+				"isPassword": true
+			}
+		},
+		{
+			"className": ".sf-label .forgotPassword",
+			"id": "45dd-ccf6-463b-f73a",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblForgotPassword",
+				"parent": "06b7-b1bd-b95e-fbdf",
+				"text": "Forgot Passcode?"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Forgot Passcode?"
+			}
+		},
+		{
+			"className": ".sf-button .margin-vertical .bella-margin .bella-btn",
+			"id": "93fd-b2b8-0129-4971",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "06b7-b1bd-b95e-fbdf",
+				"text": "Login"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "Login"
+			}
+		}
+	]
+}

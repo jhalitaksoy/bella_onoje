@@ -10,14 +10,14 @@
 			"parent": "",
 			"props": {
 				"path": "/",
-				"x": 62.312034012839035,
-				"y": -335.9367188115981,
+				"x": 51.77443167243342,
+				"y": -348.23058820873797,
 				"to": "pages"
 			},
 			"children": [
 				"750491b3-b54a-4582-84d0-3a1cc7a1c1a1",
 				"dca5600e-e4de-4e7c-ab0e-2b9eda6e8555",
-				"cf7542e0-aed0-4aa5-aaab-949399a34f10"
+				"ebe049f7-fc64-4318-a1b4-03432b55a55d"
 			]
 		},
 		"libAppRouter": {
@@ -44,8 +44,8 @@
 			"isDirty": false,
 			"props": {
 				"path": "welcome",
-				"x": -79.68295467814943,
-				"y": -120.36857214034285,
+				"x": -163.9837734013943,
+				"y": -153.73764621829395,
 				"homeRoute": "welcomePage",
 				"to": "welcomePage"
 			},
@@ -78,8 +78,8 @@
 			"isDirty": false,
 			"props": {
 				"path": "login",
-				"x": 69.46864912509318,
-				"y": -120.3685721403428,
+				"x": -18.34470371162024,
+				"y": -155.49391327502818,
 				"homeRoute": "loginPage",
 				"to": "loginPage"
 			},
@@ -115,38 +115,84 @@
 			},
 			"parent": "dca5600e-e4de-4e7c-ab0e-2b9eda6e8555"
 		},
-		"cf7542e0-aed0-4aa5-aaab-949399a34f10": {
-			"id": "cf7542e0-aed0-4aa5-aaab-949399a34f10",
-			"type": "StackRouter",
+		"ebe049f7-fc64-4318-a1b4-03432b55a55d": {
+			"id": "ebe049f7-fc64-4318-a1b4-03432b55a55d",
+			"type": "BottomTabBarRouter",
 			"isContainer": true,
 			"name": "home",
 			"children": [
-				"d8b489e6-cf97-4be3-a99c-65af69e145d4"
+				"92fcceb4-ef16-46cf-9fa2-a5535adc3a54",
+				"b1578dd5-a481-4e08-bce9-4a8d514a8ced",
+				"cd767fe6-af7d-44b4-8e22-800d38bc36be",
+				"8ec1b750-9991-4637-993c-c6e55515c88f"
 			],
 			"isDirty": false,
 			"props": {
 				"path": "home",
-				"x": 219.46864912509324,
-				"y": -123.7621569273727,
-				"homeRoute": "homePage",
-				"to": "homePage"
+				"x": 220.66080004454977,
+				"y": -182.59831938431716
 			},
 			"parent": "appRouter"
 		},
-		"d8b489e6-cf97-4be3-a99c-65af69e145d4": {
-			"id": "d8b489e6-cf97-4be3-a99c-65af69e145d4",
+		"92fcceb4-ef16-46cf-9fa2-a5535adc3a54": {
+			"id": "92fcceb4-ef16-46cf-9fa2-a5535adc3a54",
 			"type": "Route",
 			"isContainer": false,
-			"name": "homePage",
+			"name": "main",
 			"children": [],
 			"isDirty": false,
 			"props": {
-				"path": "homePage",
-				"x": 229.64940348618285,
-				"y": -38.546400994429064,
+				"path": "main",
+				"x": 484.14898619778324,
+				"y": 108.85412502370633,
 				"page": "pgHome"
 			},
-			"parent": "cf7542e0-aed0-4aa5-aaab-949399a34f10"
+			"parent": "ebe049f7-fc64-4318-a1b4-03432b55a55d"
+		},
+		"b1578dd5-a481-4e08-bce9-4a8d514a8ced": {
+			"id": "b1578dd5-a481-4e08-bce9-4a8d514a8ced",
+			"type": "Route",
+			"isContainer": false,
+			"name": "likes",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "likes",
+				"x": 491.14898619778324,
+				"y": 117.85412502370633,
+				"page": "pgLikes"
+			},
+			"parent": "ebe049f7-fc64-4318-a1b4-03432b55a55d"
+		},
+		"cd767fe6-af7d-44b4-8e22-800d38bc36be": {
+			"id": "cd767fe6-af7d-44b4-8e22-800d38bc36be",
+			"type": "Route",
+			"isContainer": false,
+			"name": "profile",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "profile",
+				"x": 481.14898619778324,
+				"y": 138.85412502370633,
+				"page": "pgProfile"
+			},
+			"parent": "ebe049f7-fc64-4318-a1b4-03432b55a55d"
+		},
+		"8ec1b750-9991-4637-993c-c6e55515c88f": {
+			"id": "8ec1b750-9991-4637-993c-c6e55515c88f",
+			"type": "Route",
+			"isContainer": false,
+			"name": "history",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "history",
+				"x": 484.14898619778324,
+				"y": 169.85412502370633,
+				"page": "pgHistory"
+			},
+			"parent": "ebe049f7-fc64-4318-a1b4-03432b55a55d"
 		}
 	}
 }

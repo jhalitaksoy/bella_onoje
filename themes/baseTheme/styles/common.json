@@ -324,7 +324,8 @@
   },
   "#logout": {
     "&-wrapper": {
-      "padding": 20
+      "padding": 20,
+      "height": 150
     }
   },
   "#common": {
@@ -396,10 +397,102 @@
       },
       "borderRadius": 100,
       "height": 60
+    },
+    "&-horizantal": {
+      "marginLeft": 20,
+      "marginRight": 20
+    },
+    "&-background": {
+      "backgroundColor": "rgba( 242, 242, 242, 1 )"
     }
   },
   ".border": {
     "height": 3,
     "width": 100
+  },
+  "#btbItemHome": {
+    "icon": {
+      "normal": "__sf_gen_img_home.png",
+      "selected": "__sf_gen_img_home.png"
+    }
+  },
+  "#myBottomBar": {
+    "backgroundColor": "rgba( 0, 0, 0, 0 )",
+    "itemColor": {
+      "normal": "rgba( 173, 173, 175, 1 )",
+      "selected": "rgba( 250, 74, 12, 1 )"
+    }
+  },
+  "#taabritem": {
+    "&-likes": {
+      "icon": {
+        "normal": "__sf_gen_img_heart.png",
+        "selected": "__sf_gen_img_heart.png"
+      }
+    }
+  },
+  "#item": {
+    "&-profile": {
+      "icon": {
+        "normal": "__sf_gen_img_user.png",
+        "selected": "__sf_gen_img_user.png"
+      }
+    },
+    "&-history": {
+      "icon": {
+        "normal": "__sf_gen_img_history.png",
+        "selected": "__sf_gen_img_history.png"
+      }
+    }
+  },
+  "#flHeader": {
+    "height": 90
+  },
+  ".transparent": {
+    "backgroundColor": "rgba( 0, 0, 0, 0 )"
+  },
+  "#flSearchWrapper": {
+    "height": 100,
+    "flexProps": {
+      "flexDirection": "ROW",
+      "justifyContent": "CENTER",
+      "alignItems": "CENTER"
+    }
+  },
+  "#flSearch": {
+    "flexProps": {
+      "flexDirection": "ROW",
+      "flexGrow": 1
+    },
+    "height": 50,
+    "&-text": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "textColor": "rgba( 143, 121, 121, 1 )"
+    },
+    "&-icon": {
+      "marginLeft": 20,
+      "font": {
+        "family": "MaterialIcons",
+        "italic": false,
+        "bold": false,
+        "size": 32,
+        "style": "Regular"
+      },
+      "glyph": "",
+      "textColor": "rgba( 66, 11, 11, 1 )"
+    },
+    "backgroundColor": "rgba( 239, 238, 238, 1 )",
+    "borderRadius": 100
+  },
+  "#flTabbarText": {
+    "height": 47,
+    "textAlignment": "MIDCENTER",
+    "textColor": "rgba( 154, 154, 157, 1 )"
+  },
+  "#tabbarLine": {
+    "height": 3,
+    "backgroundColor": "rgba( 250, 74, 12, 0 )"
   }
 }

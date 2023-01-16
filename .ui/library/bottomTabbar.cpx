@@ -1,0 +1,83 @@
+{
+	"components": [
+		{
+			"className": ".sf-bottomTabbar #myBottomBar",
+			"id": "73f7-8e01-a814-f59a",
+			"props": {
+				"children": [
+					"c320-e45c-81c0-e61b",
+					"6d10-107b-8afc-062a",
+					"3ce9-aa90-b608-ccbe",
+					"c51d-51df-0a5e-18ae"
+				],
+				"name": "bottomTabbar",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "BottomTabbar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem #btbItemHome",
+			"id": "c320-e45c-81c0-e61b",
+			"oldName": "tabBarItem1",
+			"props": {
+				"children": [],
+				"name": "tabbarItemHome",
+				"parent": "73f7-8e01-a814-f59a"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem #taabritem-likes",
+			"id": "6d10-107b-8afc-062a",
+			"oldName": "tabBarItem2",
+			"props": {
+				"children": [],
+				"name": "tabBarItemLikes",
+				"parent": "73f7-8e01-a814-f59a"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem #item-profile",
+			"id": "3ce9-aa90-b608-ccbe",
+			"oldName": "tabBarItem3",
+			"props": {
+				"children": [],
+				"name": "tabBarItemProfile",
+				"parent": "73f7-8e01-a814-f59a"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem #item-history",
+			"id": "c51d-51df-0a5e-18ae",
+			"oldName": "tabBarItem4",
+			"props": {
+				"children": [],
+				"name": "tabBarItemHistory",
+				"parent": "73f7-8e01-a814-f59a"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		}
+	]
+}

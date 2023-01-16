@@ -1,14 +1,15 @@
 {
 	"components": [
 		{
-			"className": ".sf-page",
+			"className": ".sf-page .bella-background",
 			"id": "b56c-5730-0de6-1c36",
 			"initialized": true,
 			"props": {
 				"children": [
 					"cd66-4ac5-56a3-bbc4",
 					"6a0d-c2c5-acea-e6cb",
-					"1e6d-4875-bb73-d562"
+					"7db7-94c6-7c92-9915",
+					"65fe-370b-46d9-1483"
 				],
 				"name": "pgHome",
 				"orientation": "PORTRAIT",
@@ -84,45 +85,90 @@
 			"userProps": {}
 		},
 		{
-			"className": ".sf-flexLayout #logout-wrapper",
-			"id": "1e6d-4875-bb73-d562",
+			"className": ".sf-flexLayout #flHeader .transparent",
+			"id": "7db7-94c6-7c92-9915",
+			"oldName": "flexLayout1",
 			"props": {
 				"children": [
-					"69ea-e557-9aec-0ff9",
-					"beea-b7bc-2dfb-1459"
+					"66a6-0b83-9543-f81f"
 				],
-				"name": "flexLayout6",
+				"name": "flHeader",
 				"parent": "b56c-5730-0de6-1c36"
 			},
 			"type": "FlexLayout",
 			"userProps": {}
 		},
 		{
-			"className": ".sf-button #login-button",
-			"id": "69ea-e557-9aec-0ff9",
+			"className": ".sf-textView #textview-title .bella-horizantal",
+			"id": "66a6-0b83-9543-f81f",
 			"props": {
 				"children": [],
-				"name": "button1",
-				"parent": "1e6d-4875-bb73-d562",
-				"text": "Logout"
+				"html": "<span style=\"white-space: pre-wrap; font-size: 32px; font-family: SFProText-Semibold; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0);\">Delicious</span><div><span style=\"white-space: pre-wrap; font-size: 32px; font-family: SFProText-Semibold; background-color: rgba(255, 255, 255, 0);\">food for you</span></div>",
+				"maxLines": 2,
+				"name": "textView1",
+				"parent": "7db7-94c6-7c92-9915",
+				"text": "Delicious\nfood for you"
 			},
-			"type": "Button",
+			"type": "TextView",
 			"userProps": {
-				"text": "Logout"
+				"html": "<span style=\"white-space: pre-wrap; font-size: 32px; font-family: SFProText-Semibold; color: rgb(0, 0, 0); text-decoration-color: rgb(0, 0, 0); background-color: rgba(255, 255, 255, 0);\">Delicious</span><div><span style=\"white-space: pre-wrap; font-size: 32px; font-family: SFProText-Semibold; background-color: rgba(255, 255, 255, 0);\">food for you</span></div>",
+				"maxLines": 2,
+				"text": "Delicious\nfood for you"
 			}
 		},
 		{
-			"className": ".sf-button #login-button .margin-vertical",
-			"id": "beea-b7bc-2dfb-1459",
+			"className": ".sf-flexLayout #flSearchWrapper",
+			"id": "65fe-370b-46d9-1483",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"67c5-ff62-df05-8a44"
+				],
+				"name": "flSearchWrapper",
+				"parent": "b56c-5730-0de6-1c36"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #flSearch .bella-horizantal",
+			"id": "67c5-ff62-df05-8a44",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"1d90-029a-082a-5ee1",
+					"319a-f7ef-fd79-3d85"
+				],
+				"name": "flSearch",
+				"parent": "65fe-370b-46d9-1483"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-icon #flSearch-icon",
+			"id": "1d90-029a-082a-5ee1",
 			"props": {
 				"children": [],
-				"name": "button1_1",
-				"parent": "1e6d-4875-bb73-d562",
-				"text": "Reset"
+				"name": "icon3",
+				"parent": "67c5-ff62-df05-8a44"
 			},
-			"type": "Button",
+			"type": "Icon",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #flSearch-text",
+			"id": "319a-f7ef-fd79-3d85",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblSearch",
+				"parent": "67c5-ff62-df05-8a44",
+				"text": "Search"
+			},
+			"type": "Label",
 			"userProps": {
-				"text": "Reset"
+				"text": "Search"
 			}
 		}
 	]

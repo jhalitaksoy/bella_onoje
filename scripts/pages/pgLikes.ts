@@ -1,10 +1,8 @@
-import PgHomeDesign from 'generated/pages/pgHome';
+import PgLikesDesign from 'generated/pages/pgLikes';
 import { withDismissAndBackButton } from '@smartface/mixins';
 import { Router, Route } from '@smartface/router';
-import { Data } from '@smartface/native/global';
-import Color from '@smartface/native/ui/color';
 
-export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
+export default class PgLikes extends withDismissAndBackButton(PgLikesDesign) {
   constructor(private router?: Router, private route?: Route) {
     super({});
   }
@@ -24,6 +22,5 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
    */
   onLoad() {
     super.onLoad();
-    this.statusBar.backgroundColor = Color.WHITE;
   }
 }

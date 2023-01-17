@@ -1,0 +1,8 @@
+{
+  "#flTabbarHeader": {
+    "height": 50,
+    "flexProps": {
+      "flexDirection": "ROW"
+    }
+  }
+}

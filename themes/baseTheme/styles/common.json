@@ -489,10 +489,50 @@
   "#flTabbarText": {
     "height": 47,
     "textAlignment": "MIDCENTER",
-    "textColor": "rgba( 154, 154, 157, 1 )"
+    "textColor": "rgba( 154, 154, 157, 1 )",
+    "width": 200
   },
   "#tabbarLine": {
     "height": 3,
-    "backgroundColor": "rgba( 250, 74, 12, 0 )"
+    "backgroundColor": "rgba( 250, 74, 12, 1 )",
+    "flexProps": {
+      "flexGrow": 1
+    }
+  },
+  "#tabbarScroll": {
+    "flexProps": {
+      "flexGrow": 1
+    },
+    "height": 50,
+    "align": "HORIZONTAL"
+  },
+  "#tabbarItemWrapper": {
+    "height": 50,
+    "width": 500
+  },
+  "#product": {
+    "&-title": {
+      "textAlignment": "MIDCENTER"
+    },
+    "&-price": {
+      "textAlignment": "MIDCENTER",
+      "textColor": "rgba( 250, 74, 12, 1 )"
+    }
+  },
+  ".flProductWrapper": {
+    "backgroundColor": "rgba( 255, 255, 255, 1 )",
+    "borderRadius": 50
+  },
+  "#flProductList": {
+    "height": 420
+  },
+  "#productIMage": {
+    "height": 100,
+    "width": 100
+  },
+  "#grey": {
+    "&-headerbar": {
+      "backgroundColor": "rgba( 242, 242, 242, 1 )"
+    }
   }
 }

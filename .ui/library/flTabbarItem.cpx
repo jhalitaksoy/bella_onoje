@@ -1,0 +1,67 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flTabbarItem",
+			"id": "7470-0053-3a56-9233",
+			"props": {
+				"children": [
+					"6148-fd09-569e-3423"
+				],
+				"name": "flTabbarItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 20.48,
+				"top": 510.84
+			}
+		},
+		{
+			"className": ".sf-flexLayout #tabbarItemWrapper",
+			"id": "6148-fd09-569e-3423",
+			"props": {
+				"children": [
+					"903a-8ff3-8aeb-0c00",
+					"dcfd-e9b1-7273-37e8"
+				],
+				"name": "flexLayout1",
+				"parent": "7470-0053-3a56-9233"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label #flTabbarText",
+			"id": "903a-8ff3-8aeb-0c00",
+			"oldName": "tabbarTetx",
+			"props": {
+				"children": [],
+				"name": "tabbarText",
+				"parent": "6148-fd09-569e-3423",
+				"text": "Foods"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Foods"
+			}
+		},
+		{
+			"className": ".sf-flexLayout #tabbarLine",
+			"id": "dcfd-e9b1-7273-37e8",
+			"oldName": "tabbarLine",
+			"props": {
+				"children": [],
+				"name": "line",
+				"parent": "6148-fd09-569e-3423"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		}
+	]
+}

@@ -1,6 +1,7 @@
 import PgProfileDesign from 'generated/pages/pgProfile';
 import { withDismissAndBackButton } from '@smartface/mixins';
 import { Router, Route } from '@smartface/router';
+import { Data } from '@smartface/native/global';
 
 export default class PgProfile extends withDismissAndBackButton(PgProfileDesign) {
   constructor(private router?: Router, private route?: Route) {

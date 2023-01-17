@@ -1,0 +1,108 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flProductItem",
+			"id": "40e9-668e-800c-6f8a",
+			"props": {
+				"children": [
+					"05ca-09a8-99c0-6365"
+				],
+				"name": "flProductItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 198.81,
+				"top": 147.62
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flProductWrapper",
+			"id": "05ca-09a8-99c0-6365",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"33bc-81d1-4928-2e21",
+					"d389-76c7-5cdc-cf9e"
+				],
+				"name": "flProductItemWrapper",
+				"parent": "40e9-668e-800c-6f8a"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView #productIMage",
+			"id": "33bc-81d1-4928-2e21",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imageViewProduct",
+				"parent": "05ca-09a8-99c0-6365"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "d389-76c7-5cdc-cf9e",
+			"oldName": "flexLay",
+			"props": {
+				"children": [
+					"0575-a636-4620-1ae5",
+					"e636-6afd-38c6-0a0f"
+				],
+				"name": "flProductInside",
+				"parent": "05ca-09a8-99c0-6365"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-textView #product-title",
+			"id": "0575-a636-4620-1ae5",
+			"oldName": "textView1",
+			"props": {
+				"children": [],
+				"html": "<span style=\"white-space: pre-wrap; font-size: 18px; font-family: SFProText-Semibold; background-color: rgba(255, 255, 255, 0);\">Veggie</span><div><span style=\"white-space: pre-wrap; font-size: 18px; font-family: SFProText-Semibold; background-color: rgba(255, 255, 255, 0);\">tomato mix</span></div>",
+				"maxLines": 2,
+				"name": "txtTitle",
+				"parent": "d389-76c7-5cdc-cf9e",
+				"text": "Veggie\ntomato mix"
+			},
+			"type": "TextView",
+			"userProps": {
+				"html": "<span style=\"white-space: pre-wrap; font-size: 18px; font-family: SFProText-Semibold; background-color: rgba(255, 255, 255, 0);\">Veggie</span><div><span style=\"white-space: pre-wrap; font-size: 18px; font-family: SFProText-Semibold; background-color: rgba(255, 255, 255, 0);\">tomato mix</span></div>",
+				"maxLines": 2,
+				"text": "Veggie\ntomato mix"
+			}
+		},
+		{
+			"className": ".sf-label #product-price",
+			"id": "e636-6afd-38c6-0a0f",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblPrice",
+				"parent": "d389-76c7-5cdc-cf9e",
+				"text": "N1,900"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "N1,900"
+			}
+		}
+	]
+}

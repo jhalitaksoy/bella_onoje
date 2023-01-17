@@ -32,9 +32,9 @@ export default class PgLoginTab extends withDismissAndBackButton(PgLoginTabDesig
 
     this.button1.onPress = () => {
         Data.setStringVariable("login", "login")
-        Router.currentRouter.push('/home/homePage');
+        Router.currentRouter.push('/home/main');
     }
-
+    //@ts-ignore
     this.lblForgotPassword.onTouch = (e) => {
         Router.currentRouter.push('/login/forgotPassword');
     }

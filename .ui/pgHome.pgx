@@ -9,7 +9,8 @@
 					"cd66-4ac5-56a3-bbc4",
 					"6a0d-c2c5-acea-e6cb",
 					"7db7-94c6-7c92-9915",
-					"65fe-370b-46d9-1483"
+					"65fe-370b-46d9-1483",
+					"df26-4bc9-c824-cb4f"
 				],
 				"name": "pgHome",
 				"orientation": "PORTRAIT",
@@ -32,7 +33,7 @@
 			"userProps": {}
 		},
 		{
-			"className": ".sf-headerBar #common-header",
+			"className": ".sf-headerBar #common-header #grey-headerbar",
 			"id": "6a0d-c2c5-acea-e6cb",
 			"props": {
 				"children": [
@@ -170,6 +171,57 @@
 			"userProps": {
 				"text": "Search"
 			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "df26-4bc9-c824-cb4f",
+			"oldName": "flProducts",
+			"props": {
+				"children": [
+					"7058-086e-bcb9-98e2",
+					"a133-a589-0d34-30b1"
+				],
+				"name": "flProductsWrapper",
+				"parent": "b56c-5730-0de6-1c36"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout #flTabbarHeader #pgHome-flTabbarHeader",
+			"hiddenComponent": false,
+			"id": "7058-086e-bcb9-98e2",
+			"props": {
+				"children": [],
+				"name": "flTabbarHeader",
+				"parent": "df26-4bc9-c824-cb4f"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "flTabbarHeader",
+				"id": "f0e1-6466-b82d-710a"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout #flProductList",
+			"id": "a133-a589-0d34-30b1",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flProductList",
+				"parent": "df26-4bc9-c824-cb4f"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
 		}
 	]
 }

@@ -33,7 +33,7 @@ export default class PgRegisterTab extends withDismissAndBackButton(PgRegisterTa
 
     this.button1_1.onPress = () => {
         Data.setStringVariable("login", "login")
-        Router.currentRouter.push('/home/homePage');
+        Router.currentRouter.push('/home/main');
     }
   }
 }

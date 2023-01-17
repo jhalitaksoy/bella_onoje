@@ -3,6 +3,14 @@
     "&-flexLayout6": {
       "width": 428.57,
       "height": 344.05
+    },
+    "&-flTabbarHeader": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
     }
   }
 }

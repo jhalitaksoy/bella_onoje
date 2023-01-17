@@ -1,0 +1,21 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout #flTabbarHeader",
+			"id": "f0e1-6466-b82d-710a",
+			"props": {
+				"children": [],
+				"name": "flTabbarHeader",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 16.87,
+				"top": 567.47
+			}
+		}
+	]
+}

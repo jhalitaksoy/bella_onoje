@@ -23,6 +23,7 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
     this.statusBar.backgroundColor = Color.create("#F2F2F2");
     super.onShow();
     this.initBackButton(this.router); //Addes a back button to the page headerbar.
+    this.headerBar.borderVisibility = false;
   }
 
   /**
@@ -143,7 +144,7 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
     for (const item of items) {
         const flProductItem = new FlProductItem();
         flProductItem.height = 300;
-        flProductItem.width 175;
+        flProductItem.width = 175;
         flProductItem.margin = 20;
         flProductItem.flProductInside.marginTop = 25;
         flProductItem.flProductInside.backgroundColor = Color.WHITE;

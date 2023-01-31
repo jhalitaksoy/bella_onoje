@@ -9,6 +9,26 @@
       "font": {
         "style": "Semibold"
       }
+    },
+    "backgroundColor": "rgba( 238, 238, 238, 1 )",
+    "&-flProductItem": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-flProductItem1": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-gridViewItem": {
+      "height": 200
     }
   }
 }

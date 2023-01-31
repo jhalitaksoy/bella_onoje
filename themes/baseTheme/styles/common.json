@@ -330,7 +330,7 @@
   },
   "#common": {
     "&-header": {
-      "backgroundColor": "rgba( 253, 253, 253, 1 )"
+      "backgroundColor": "rgba( 238, 238, 238, 1 )"
     }
   },
   "#leftIcon": {
@@ -451,33 +451,6 @@
   ".transparent": {
     "backgroundColor": "rgba( 0, 0, 0, 0 )"
   },
-  "#flSearch": {
-    "flexProps": {
-      "flexDirection": "ROW",
-      "flexGrow": 1
-    },
-    "height": 50,
-    "&-text": {
-      "flexProps": {
-        "flexGrow": 1
-      },
-      "textColor": "rgba( 143, 121, 121, 1 )"
-    },
-    "&-icon": {
-      "marginLeft": 20,
-      "font": {
-        "family": "MaterialIcons",
-        "italic": false,
-        "bold": false,
-        "size": 32,
-        "style": "Regular"
-      },
-      "glyph": "",
-      "textColor": "rgba( 66, 11, 11, 1 )"
-    },
-    "backgroundColor": "rgba( 239, 238, 238, 1 )",
-    "borderRadius": 100
-  },
   "#flTabbarText": {
     "height": 47,
     "textAlignment": "MIDCENTER",
@@ -504,23 +477,18 @@
   },
   "#product": {
     "&-title": {
-      "textAlignment": "MIDCENTER"
+      "textAlignment": "MIDCENTER",
+      "height": 75,
+      "flexProps": {},
+      "marginTop": 60
     },
     "&-price": {
       "textAlignment": "MIDCENTER",
       "textColor": "rgba( 250, 74, 12, 1 )"
     }
   },
-  ".flProductWrapper": {
-    "backgroundColor": "rgba( 255, 255, 255, 1 )",
-    "borderRadius": 50
-  },
   "#flProductList": {
     "height": 420
-  },
-  "#productIMage": {
-    "height": 100,
-    "width": 100
   },
   "#grey": {
     "&-headerbar": {
@@ -539,12 +507,103 @@
     "textColor": "rgba( 0, 0, 0, 1 )",
     "backgroundColor": "rgba( 255, 255, 255, 0 )"
   },
+  "#search": {
+    "&-page": {
+      "&-wrapper": {
+        "flexProps": {
+          "flexGrow": 1
+        },
+        "borderRadius": 30,
+        "backgroundColor": "rgba( 249, 249, 249, 1 )",
+        "marginTop": 10,
+        "padding": 20
+      }
+    }
+  },
+  "#hidden": {
+    "&-headerbar": {
+      "visible": false
+    }
+  },
   "#flSearchWrapper": {
-    "height": 100,
+    "height": 50,
     "flexProps": {
       "flexDirection": "ROW",
       "justifyContent": "CENTER",
       "alignItems": "CENTER"
+    },
+    "marginTop": 10
+  },
+  "#searchGrid": {
+    "flexProps": {
+      "flexGrow": 1
     }
+  },
+  ".prodcutItem": {
+    "&-image": {
+      "&-wrapper": {
+        "height": 100,
+        "flexProps": {
+          "alignItems": "CENTER"
+        }
+      }
+    }
+  },
+  "#productIMage": {
+    "height": 100,
+    "width": 100,
+    "image": "food1.png",
+    "flexProps": {
+      "alignSelf": "CENTER",
+      "positionType": "ABSOLUTE"
+    },
+    "android": {
+      "elevation": 100
+    }
+  },
+  ".flProductWrapper": {
+    "flexProps": {
+      "flexGrow": 1,
+      "alignItems": "STRETCH",
+      "positionType": "RELATIVE"
+    },
+    "android": {}
+  },
+  ".flProductInside": {
+    "marginTop": 30,
+    "borderRadius": 30,
+    "backgroundColor": "rgba( 255, 255, 255, 1 )",
+    "height": 200,
+    "android": {
+      "elevation": 0
+    }
+  },
+  "#flSearch": {
+    "flexProps": {
+      "flexDirection": "ROW",
+      "flexGrow": 1
+    },
+    "height": 50,
+    "&-text": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "textColor": "rgba( 143, 121, 121, 1 )"
+    },
+    "&-icon": {
+      "marginLeft": 20,
+      "font": {
+        "family": "MaterialIcons",
+        "italic": false,
+        "bold": false,
+        "size": 32,
+        "style": "Regular"
+      },
+      "glyph": "",
+      "textColor": "rgba( 66, 11, 11, 1 )"
+    },
+    "backgroundColor": "rgba( 239, 238, 238, 1 )",
+    "borderRadius": 100,
+    "marginTop": 10
   }
 }

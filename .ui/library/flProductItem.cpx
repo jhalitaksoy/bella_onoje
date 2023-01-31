@@ -15,8 +15,8 @@
 			},
 			"type": "FlexLayout",
 			"userProps": {
-				"left": 198.81,
-				"top": 147.62
+				"left": 199.33,
+				"top": 146.67
 			}
 		},
 		{
@@ -25,8 +25,8 @@
 			"oldName": "flexLayout1",
 			"props": {
 				"children": [
-					"33bc-81d1-4928-2e21",
-					"d389-76c7-5cdc-cf9e"
+					"d389-76c7-5cdc-cf9e",
+					"0fc3-bf66-d7e5-a5b6"
 				],
 				"name": "flProductItemWrapper",
 				"parent": "40e9-668e-800c-6f8a"
@@ -38,22 +38,7 @@
 			"userProps": {}
 		},
 		{
-			"className": ".sf-imageView #productIMage",
-			"id": "33bc-81d1-4928-2e21",
-			"oldName": "imageView1",
-			"props": {
-				"children": [],
-				"name": "imageViewProduct",
-				"parent": "05ca-09a8-99c0-6365"
-			},
-			"source": {
-				"page": "__library__"
-			},
-			"type": "ImageView",
-			"userProps": {}
-		},
-		{
-			"className": ".sf-flexLayout",
+			"className": ".sf-flexLayout .flProductInside",
 			"id": "d389-76c7-5cdc-cf9e",
 			"oldName": "flexLay",
 			"props": {
@@ -63,9 +48,6 @@
 				],
 				"name": "flProductInside",
 				"parent": "05ca-09a8-99c0-6365"
-			},
-			"source": {
-				"page": "__library__"
 			},
 			"type": "FlexLayout",
 			"userProps": {}
@@ -103,6 +85,18 @@
 			"userProps": {
 				"text": "N1,900"
 			}
+		},
+		{
+			"className": ".sf-imageView #productIMage .flProductItem-imageViewProduct",
+			"id": "0fc3-bf66-d7e5-a5b6",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imageViewProduct",
+				"parent": "05ca-09a8-99c0-6365"
+			},
+			"type": "ImageView",
+			"userProps": {}
 		}
 	]
 }

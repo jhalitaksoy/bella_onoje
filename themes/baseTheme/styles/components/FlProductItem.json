@@ -1,6 +1,9 @@
 {
   ".flProductItem": {
-    "width": 207.14,
-    "height": 294.05
+    "height": 230,
+    "flexProps": {
+      "alignSelf": "CENTER"
+    },
+    "width": 160
   }
 }

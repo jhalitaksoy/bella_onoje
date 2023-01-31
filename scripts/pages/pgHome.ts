@@ -160,12 +160,11 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
         flProductItem.lblPrice.marginTop = 25;
         flProductItem.txtTitle.textAlignment = TextAlignment.MIDCENTER;
         flProductItem.lblPrice.textAlignment = TextAlignment.MIDCENTER;
-        flProductItem.imageViewProduct.backgroundColor = Color.BLUE;
         flProductItem.imageViewProduct.height = 100;
         flProductItem.imageViewProduct.width = 100;
         flProductItem.imageViewProduct.positionType = FlexLayout.PositionType.ABSOLUTE;
         flProductItem.imageViewProduct.android.zIndex = 30;
-        flProductItem.imageViewProduct.image = Path.AssetsUriScheme + "image140.png";
+        flProductItem.imageViewProduct.image = Path.ImagesUriScheme + "food1.png";
         flProductItem.imageViewProduct
         flexLayout.addChild(flProductItem);
     }

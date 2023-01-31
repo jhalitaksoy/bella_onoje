@@ -124,7 +124,8 @@
 				"92fcceb4-ef16-46cf-9fa2-a5535adc3a54",
 				"b1578dd5-a481-4e08-bce9-4a8d514a8ced",
 				"cd767fe6-af7d-44b4-8e22-800d38bc36be",
-				"8ec1b750-9991-4637-993c-c6e55515c88f"
+				"8ec1b750-9991-4637-993c-c6e55515c88f",
+				"51c8e096-788a-44e4-9f16-ddaade9fd296"
 			],
 			"isDirty": false,
 			"props": {
@@ -193,6 +194,37 @@
 				"page": "pgHistory"
 			},
 			"parent": "ebe049f7-fc64-4318-a1b4-03432b55a55d"
+		},
+		"51c8e096-788a-44e4-9f16-ddaade9fd296": {
+			"id": "51c8e096-788a-44e4-9f16-ddaade9fd296",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "search",
+			"children": [
+				"b51a4ad5-019d-4422-a4ee-2de1196db886"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "search",
+				"x": 230.052340858555,
+				"y": 99.48373295935528
+			},
+			"parent": "ebe049f7-fc64-4318-a1b4-03432b55a55d"
+		},
+		"b51a4ad5-019d-4422-a4ee-2de1196db886": {
+			"id": "b51a4ad5-019d-4422-a4ee-2de1196db886",
+			"type": "Route",
+			"isContainer": false,
+			"name": "search",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "search",
+				"x": 250.3104840285955,
+				"y": 220.54995102093633,
+				"page": "pgSearch"
+			},
+			"parent": "51c8e096-788a-44e4-9f16-ddaade9fd296"
 		}
 	}
 }

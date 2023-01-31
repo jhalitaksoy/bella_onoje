@@ -24,6 +24,9 @@ export default class PgHome extends withDismissAndBackButton(PgHomeDesign) {
     super.onShow();
     this.initBackButton(this.router); //Addes a back button to the page headerbar.
     this.headerBar.borderVisibility = false;
+    this.lblSearch.onTouch = () => {
+        this.router.push("/home/search/search")
+    }
   }
 
   /**

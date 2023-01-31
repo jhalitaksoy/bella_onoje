@@ -1,0 +1,14 @@
+{
+  "#pgSearch": {
+    "&-textbox": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "marginLeft": 20,
+      "borderWidth": 0,
+      "font": {
+        "style": "Semibold"
+      }
+    }
+  }
+}

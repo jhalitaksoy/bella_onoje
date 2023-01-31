@@ -451,14 +451,6 @@
   ".transparent": {
     "backgroundColor": "rgba( 0, 0, 0, 0 )"
   },
-  "#flSearchWrapper": {
-    "height": 100,
-    "flexProps": {
-      "flexDirection": "ROW",
-      "justifyContent": "CENTER",
-      "alignItems": "CENTER"
-    }
-  },
   "#flSearch": {
     "flexProps": {
       "flexDirection": "ROW",
@@ -533,6 +525,26 @@
   "#grey": {
     "&-headerbar": {
       "backgroundColor": "rgba( 242, 242, 242, 1 )"
+    }
+  },
+  ".backButton": {
+    "font": {
+      "family": "FontAwesome5FreeSolid",
+      "italic": false,
+      "bold": false,
+      "style": null,
+      "size": 24
+    },
+    "glyph": "",
+    "textColor": "rgba( 0, 0, 0, 1 )",
+    "backgroundColor": "rgba( 255, 255, 255, 0 )"
+  },
+  "#flSearchWrapper": {
+    "height": 100,
+    "flexProps": {
+      "flexDirection": "ROW",
+      "justifyContent": "CENTER",
+      "alignItems": "CENTER"
     }
   }
 }

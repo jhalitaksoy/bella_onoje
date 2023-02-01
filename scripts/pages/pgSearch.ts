@@ -53,6 +53,7 @@ export default class PgSearch extends withDismissAndBackButton(PgSearchDesign) {
    */
   onShow() {
     super.onShow();
+    this.statusBar.backgroundColor = Color.create("#EEEEEE");
     this.initBackButton(this.router); //Addes a back button to the page headerbar.
     this.goBackIcon.on("touch", () => {
         this.router.push("/home/main")
